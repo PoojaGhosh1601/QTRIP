@@ -23,7 +23,7 @@ async function fetchCities() {
 debugger;
   try {
     //const response = await fetch(`${config.backendEndpoint}/cities`);
-    const response = await fetch("http://3.6.40.97:8082/cities/");
+    const response = await fetch("https://qtrip-dynamic-nipl.onrender.com/cities/");
     if (!response.ok) {
         throw new Error('Network response was not ok');
     }
