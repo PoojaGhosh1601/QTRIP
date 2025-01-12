@@ -23,7 +23,7 @@ async function fetchAdventures(city) {
     
     //const response = await fetch(`${config.backendEndpoint}/adventures?city=${city}`);
 
-    const response = await fetch(`http://3.6.40.97:8082/adventures?city=${city}`);
+    const response = await fetch(`https://qtrip-dynamic-nipl.onrender.com/adventures?city=${city}`);
 
     
     if (!response.ok) {
